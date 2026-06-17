@@ -1,0 +1,15 @@
+﻿<%-- Skin file for MySiteTheme --%>
+
+<asp:Label runat="server" ForeColor="#8B0000" Font-Bold="true" />
+
+<asp:Button runat="server"
+    BackColor="#8B0000"
+    ForeColor="White"
+    Font-Bold="true"
+    BorderStyle="None" />
+
+<asp:TextBox runat="server"
+    BorderColor="#888888"
+    BorderStyle="Solid"
+    BorderWidth="1px"
+    Width="260px" />

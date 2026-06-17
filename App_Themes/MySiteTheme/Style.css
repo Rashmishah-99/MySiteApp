@@ -1,0 +1,186 @@
+﻿/* ===== GLOBAL STYLES ===== */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+/* ===== LAYOUT TABLE ===== */
+.mainTable {
+    width: 820px;
+    margin: 0 auto;
+    border: 1px solid #999;
+    border-collapse: collapse;
+    background-color: #fff;
+}
+
+/* ===== HEADER ===== */
+.headerCell {
+    padding: 10px 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+.logoText {
+    font-size: 32px;
+    font-weight: bold;
+    color: #8B0000;
+    font-style: italic;
+    font-family: Georgia, serif;
+    text-decoration: underline;
+    text-decoration-color: #DAA520;
+}
+
+.userInfo {
+    text-align: right;
+    font-size: 14px;
+}
+
+/* ===== LEFT NAV ===== */
+.navCell {
+    width: 160px;
+    vertical-align: top;
+    padding: 20px 10px;
+    border-right: 1px solid #ccc;
+}
+
+    .navCell a {
+        display: block;
+        color: #003399;
+        text-decoration: none;
+        margin-bottom: 8px;
+        font-size: 14px;
+    }
+
+        .navCell a:hover {
+            text-decoration: underline;
+        }
+
+/* ===== CONTENT AREA ===== */
+.contentCell {
+    background-color: #aaaaaa;
+    vertical-align: top;
+    padding: 20px 25px;
+}
+
+.pageTitle {
+    font-size: 22px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+/* ===== FIELDSET SECTIONS ===== */
+fieldset {
+    border: 1px solid #888;
+    margin-bottom: 15px;
+    padding: 12px 15px;
+    background-color: #aaaaaa;
+}
+
+legend {
+    font-size: 13px;
+    color: #111;
+    padding: 0 5px;
+}
+
+.detailTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .detailTable td {
+        padding: 4px 8px;
+        font-size: 14px;
+        vertical-align: top;
+    }
+
+.labelCol {
+    width: 180px;
+    color: #111;
+}
+
+/* ===== PHOTO GALLERY ===== */
+.galleryTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .galleryTable td {
+        padding: 10px;
+        text-align: center;
+        vertical-align: top;
+    }
+
+.photoBox {
+    width: 150px;
+    height: 120px;
+    border: 2px solid #555;
+    background-color: #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+    .photoBox img {
+        max-width: 150px;
+        max-height: 120px;
+    }
+
+.photoCaption {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #fff;
+}
+
+/* ===== CONTACT FORM ===== */
+.contactTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    .contactTable td {
+        padding: 8px 5px;
+        font-size: 14px;
+        color: #fff;
+    }
+
+    .contactTable input[type="text"],
+    .contactTable input[type="email"],
+    .contactTable textarea {
+        width: 260px;
+        padding: 4px;
+        border: 1px solid #888;
+        font-size: 13px;
+    }
+
+    .contactTable textarea {
+        height: 80px;
+        resize: vertical;
+    }
+
+.submitBtn {
+    background-color: #8B0000;
+    color: white;
+    border: none;
+    padding: 6px 20px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+    .submitBtn:hover {
+        background-color: #a00000;
+    }
+
+/* ===== FOOTER ===== */
+.footerCell {
+    text-align: center;
+    padding: 10px;
+    border-top: 2px solid #ccc;
+    font-size: 13px;
+    color: #333;
+}body {
+}

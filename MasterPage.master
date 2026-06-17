@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.master.cs" Inherits="MySiteApp.MasterPage" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>MySite - My Personal Website</title>
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <table class="mainTable" cellpadding="0" cellspacing="0">
+
+            <!-- ===== HEADER ROW ===== -->
+            <tr>
+                <td colspan="2" class="headerCell">
+                    <table width="100%" cellpadding="0" cellspacing="0">
+                        <tr>
+                            <td width="160px">
+                                <span class="logoText">MySite</span>
+                            </td>
+                            <td class="userInfo">
+                                NAME &nbsp; Raghuwinder Kumar<br />
+                                EMAILID:- raghu@gmail.com
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+
+            <!-- ===== BODY ROW ===== -->
+            <tr>
+                <!-- LEFT NAVIGATION -->
+                <td class="navCell">
+                    <asp:HyperLink ID="lnkResume"       runat="server" NavigateUrl="~/Resume.aspx">Resume</asp:HyperLink>
+                    <asp:HyperLink ID="lnkGallery"      runat="server" NavigateUrl="~/PhotoGallery.aspx">photogallary</asp:HyperLink>
+                    <asp:HyperLink ID="lnkContact"      runat="server" NavigateUrl="~/ContactUs.aspx">contactus</asp:HyperLink>
+                </td>
+
+                <!-- MAIN CONTENT -->
+                <td class="contentCell">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+
+            <!-- ===== FOOTER ROW ===== -->
+            <tr>
+                <td colspan="2" class="footerCell">
+                    &copy; 2012: ALL RIGHTS ARE RESEARVED
+                </td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>
